@@ -157,3 +157,7 @@ The @Entity annotation is typically used in combination with other annotations s
 
              // getters and setters
           }
+          
+In the example above, the User class is marked with the @Entity annotation, indicating that it is a JPA entity. The @Id and @GeneratedValue annotations are used to specify the primary key of the entity, while the @Column annotation is used to map the class properties to corresponding columns in the database table.
+
+By using the @Entity annotation, you can define the mapping between your Java objects and the database tables, and leverage the features of the JPA framework to perform database operations such as CRUD (Create, Read, Update, and Delete) operations.
