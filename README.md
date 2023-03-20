@@ -162,3 +162,7 @@ In the example above, the User class is marked with the @Entity annotation, indi
 
 By using the @Entity annotation, you can define the mapping between your Java objects and the database tables, and leverage the features of the JPA framework to perform database operations such as CRUD (Create, Read, Update, and Delete) operations.
 
+
+
+
+
